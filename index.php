@@ -13,7 +13,10 @@ and open the template in the editor.
         
         <title></title>
     </head>
-    <body>
+    <body> 
+        <div id="text">
+            
+        </div>
         <?php
         // put your code here
         ?>

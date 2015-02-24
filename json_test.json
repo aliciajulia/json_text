@@ -1,5 +1,10 @@
-{
-    "name": "Alicia och Lovisa"
-    
-}
+
+  {  
+"kollegor": [
+   { "Lovisa": "katt"},
+   { " Alicia": "häst"},
+   { " Rebecka": "hund"}
+
+]
+  }
 
