@@ -1,15 +1,15 @@
 console.log("Hej");
 
 $.getJSON(
-        "json_test.json", 
+        "data.php", 
         function(data){ 
-            console.log(data.kollegor);
-            $("#text").text(data.kollegor);
+            console.log(data);
+//            $("#text").text(data.kollegor);
             
-//            $.each(data.kollegor, function(data){
-//                console.log(data.kollegor);
+            $.each(data, function(data){
+                console.log(data);
             });
-//        }
-//);
+        }
+);
 
 
